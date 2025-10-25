@@ -2,11 +2,14 @@
 
 ## Project Overview
 
+**GitHub Repository**: https://github.com/Jsgordon420365/chrome-data-hub
+
 This is a Chrome history and bookmarks database system with:
 - SQLite database (better-sqlite3) with FTS5 full-text search
 - Express REST API backend
 - Vanilla JavaScript frontend
 - CLI tools for data import/export
+- **Status**: ✅ Fully functional and deployed to GitHub
 
 ## Architecture
 

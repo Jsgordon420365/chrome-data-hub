@@ -1,14 +1,21 @@
 # EXECUTE THESE COMMANDS IN ORDER
 
-## Current Status: READY TO RUN
+## Current Status: ✅ FULLY FUNCTIONAL & DEPLOYED
 
-All implementation files are in place. Execute these 5 commands to launch your Chrome Data Hub.
+**GitHub Repository**: https://github.com/Jsgordon420365/chrome-data-hub
+
+All implementation files are in place and tested. Execute these 5 commands to launch your Chrome Data Hub.
 
 ---
 
-## STEP 1: Navigate to Project
+## STEP 1: Clone Repository (or Navigate if Already Local)
 
 ```bash
+# If cloning from GitHub:
+git clone https://github.com/Jsgordon420365/chrome-data-hub.git
+cd chrome-data-hub
+
+# If already local:
 cd /Users/gordo/Projects/chrome-data-hub
 ```
 
@@ -62,8 +69,8 @@ npm start
 
 ```
 ✓ Database schema initialized
-✓ Imported 164 history entries to database
-✓ Imported 602 bookmark entries to database
+✓ Imported 472 history entries to database
+✓ Imported 100 bookmark entries to database
 ✓ Chrome Data Hub API running on http://localhost:3000
 ✓ Dashboard: http://localhost:3000
 ```

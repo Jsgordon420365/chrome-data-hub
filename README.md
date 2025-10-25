@@ -2,6 +2,10 @@
 
 A cross-device Chrome history and bookmarks database with full-text search, REST API, and web interface.
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/Jsgordon420365/chrome-data-hub)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)](https://nodejs.org/)
+
 ## Features
 
 - 🔍 **Full-text search** across history and bookmarks using SQLite FTS5
@@ -21,20 +25,26 @@ A cross-device Chrome history and bookmarks database with full-text search, REST
 
 ## Quick Start
 
-### 1. Install Dependencies
+### 1. Clone Repository
 
 ```bash
-cd ~/Projects/chrome-data-hub
+git clone https://github.com/Jsgordon420365/chrome-data-hub.git
+cd chrome-data-hub
+```
+
+### 2. Install Dependencies
+
+```bash
 npm install
 ```
 
-### 2. Initialize Database
+### 3. Initialize Database
 
 ```bash
 npm run init-db
 ```
 
-### 3. Import Your Data
+### 4. Import Your Data
 
 ```bash
 # Import history
@@ -47,13 +57,24 @@ npm run import-bookmarks -- /path/to/bookmarks.json
 npm run import-all
 ```
 
-### 4. Start Server
+### 5. Start Server
 
 ```bash
 npm start
 ```
 
 Access the web interface at: **http://localhost:3000**
+
+## Current Status
+
+✅ **Fully Functional** - All features working as designed
+- Database: SQLite with FTS5 search initialized
+- Sample Data: 472 history entries + 100 bookmarks included
+- API Server: Running on http://localhost:3000
+- Search: Full-text search working across all data
+- Web Interface: Responsive dashboard with real-time search
+
+🔗 **GitHub Repository**: https://github.com/Jsgordon420365/chrome-data-hub
 
 ## Available Scripts
 
