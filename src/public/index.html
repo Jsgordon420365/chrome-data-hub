@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chrome Data Hub</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🔍 Chrome Data Hub</h1>
+      <p class="subtitle">Search your Chrome history and bookmarks</p>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="search">🔍 Search</button>
+      <button class="tab" data-tab="history">📜 History</button>
+      <button class="tab" data-tab="bookmarks">🔖 Bookmarks</button>
+      <button class="tab" data-tab="dashboard">📊 Dashboard</button>
+    </nav>
+
+    <!-- Search Tab -->
+    <div class="tab-content active" id="search">
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search history and bookmarks..." />
+        <button id="searchBtn">Search</button>
+      </div>
+      <div id="searchResults" class="results"></div>
+    </div>
+
+    <!-- History Tab -->
+    <div class="tab-content" id="history">
+      <div class="search-box">
+        <input type="text" id="historySearchInput" placeholder="Search history..." />
+        <button id="historySearchBtn">Search</button>
+      </div>
+      <div id="historyStats" class="stats"></div>
+      <div id="historyResults" class="results"></div>
+    </div>
+
+    <!-- Bookmarks Tab -->
+    <div class="tab-content" id="bookmarks">
+      <div class="search-box">
+        <input type="text" id="bookmarksSearchInput" placeholder="Search bookmarks..." />
+        <button id="bookmarksSearchBtn">Search</button>
+      </div>
+      <div id="bookmarkFolders" class="folders"></div>
+      <div id="bookmarksResults" class="results"></div>
+    </div>
+
+    <!-- Dashboard Tab -->
+    <div class="tab-content" id="dashboard">
+      <div id="dashboardContent" class="dashboard"></div>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "name": "chrome-data-hub",
+  "version": "1.0.0",
+  "description": "Cross-device Chrome history and bookmarks database with full-text search and REST API",
+  "main": "src/api/server.js",
+  "scripts": {
+    "start": "node src/api/server.js",
+    "dev": "nodemon src/api/server.js",
+    "init-db": "node scripts/init-db.js",
+    "import-history": "node scripts/import-history.js",
+    "import-bookmarks": "node scripts/import-bookmarks.js",
+    "import-all": "npm run import-history -- history-2.json && npm run import-bookmarks -- bookmarks-2025-10-25.json",
+    "clean": "node scripts/clean-db.js",
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "keywords": [
+    "chrome",
+    "history",
+    "bookmarks",
+    "sqlite",
+    "full-text-search",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "express": "^4.21.1",
+    "cors": "^2.8.5",
+    "compression": "^1.7.4",
+    "helmet": "^8.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
