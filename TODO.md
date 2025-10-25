@@ -89,7 +89,7 @@ Last Updated: 2025-10-25 20:15:00
 ✅ npm install succeeds
 ✅ npm run init-db succeeds
 ✅ npm run import-history succeeds (472 entries imported)
-✅ npm run import-bookmarks succeeds (100 entries imported)
+✅ npm run import-bookmarks succeeds (287 entries imported)
 ✅ npm start launches server at localhost:3000
 ✅ Web interface loads and functions
 ✅ Full-text search working across all data

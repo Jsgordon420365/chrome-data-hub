@@ -70,7 +70,7 @@ npm start
 ```
 ✓ Database schema initialized
 ✓ Imported 472 history entries to database
-✓ Imported 100 bookmark entries to database
+✓ Imported 287 bookmark entries to database
 ✓ Chrome Data Hub API running on http://localhost:3000
 ✓ Dashboard: http://localhost:3000
 ```

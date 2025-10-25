@@ -69,7 +69,7 @@ Access the web interface at: **http://localhost:3000**
 
 ✅ **Fully Functional** - All features working as designed
 - Database: SQLite with FTS5 search initialized
-- Sample Data: 472 history entries + 100 bookmarks included
+- Sample Data: 472 history entries + 287 bookmarks included
 - API Server: Running on http://localhost:3000
 - Search: Full-text search working across all data
 - Web Interface: Responsive dashboard with real-time search
